@@ -1,0 +1,26 @@
+{
+    "name": "nezamy/just",
+    "type": "library",
+    "description": "Just is a PHP micro-framework for Full Stack Web Developer ",
+    "keywords": ["just", "justframework", "micro", "framework"],
+    "homepage": "https://github.com/nezamy/just",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud Elnezamy",
+            "email": "mahmoud@nezamy.com",
+            "homepage": "http://nezamy.com",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nezamy/route": "^1.*",
+        "nezamy/view": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "system"
+        }
+    }
+}
