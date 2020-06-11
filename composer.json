@@ -16,7 +16,8 @@
     "require": {
         "php": ">=5.4.0",
         "nezamy/route": "*",
-        "nezamy/view": "dev-master"
+        "nezamy/view": "dev-master",
+        "nezamy/config": "dev-master"
     },
     "autoload": {
         "psr-4": {
